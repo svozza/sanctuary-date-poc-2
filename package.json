@@ -1,0 +1,17 @@
+{
+  "name": "sactuary-date-poc",
+  "version": "0.1.0",
+  "dependencies": {
+    "date-fp": "*",
+    "lodash.curry": "^3.0.2",
+    "sanctuary": "plaid/sanctuary#master",
+    "sanctuary-def": "plaid/sanctuary-def#master"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
