@@ -5,7 +5,7 @@ types except `TimeUnit` are defined [there](https://github.com/plaid/sanctuary-d
 
 ## Functions:
 
-### add :: TimeUnit -> Integer -> ValidDate -> Either (String ValidDate)
+### add :: TimeUnit -> Integer -> ValidDate -> Either String ValidDate
 
 ### convertTo :: TimeUnit -> ValidDate -> ValidNumber
 
@@ -23,8 +23,8 @@ types except `TimeUnit` are defined [there](https://github.com/plaid/sanctuary-d
 
 ### max :: [ValidDate] -> ValidDate
 
-### parse :: String -> String -> Either (String ValidDate)
+### parse :: String -> String -> Either String ValidDate
 
-### set :: TimeUnit -> Integer -> ValidDate -> Either (String ValidDate)
+### set :: TimeUnit -> Integer -> ValidDate -> Either String ValidDate
 
 ### unixTime :: ValidDate -> Integer
